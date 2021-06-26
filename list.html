@@ -1,48 +1,15 @@
 <html>
     <title>Solruc's list</title>
     <link rel="icon" type="image/png" href="assets/icon.png">
-    <style>
-        .card-photo:hover{
-            border: 1px solid #333;
-            
-        }
-        .button:hover{
-            border: 1px solid white;
-            background-color: #333;
-        }
-        .total-center {
-            margin: 0;
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            -ms-transform: translate(-50%, -50%);
-            transform: translate(-50%, -50%);
-        }
-        .vertical-center {
-            margin: 0;
-            position: absolute;
-            top: 50%;
-            -ms-transform: translateY(-50%);
-            transform: translateY(-50%);
-        }
-        .button{
-            background-color: #5acee6; /* Green */
-            border: 1px solid #a6e5f2;
-            color: white;
-            padding: 5px 15px;
-            text-align: center;
-            text-decoration: none;
-            display: inline-block;
-            font-size: 16px;
-            margin: 4px 2px;
-            cursor: pointer;
-        }
-    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="main.css" rel="stylesheet" />
+
     <script>
         function goBack() {
             location.href = "index.html";
         };
     </script>
+
     <body style="background-color: #5acee6;">
         <center class="total-center">
             <button class="button" onclick="goBack()">Go back</button><br>

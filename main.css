@@ -55,7 +55,7 @@ iframe {
 
 .button-container {
   display: grid;
-  grid-template-columns: repeat(4, 25%);
+  grid-template-columns: repeat(2, 50%);
 }
 
 .button {
@@ -119,7 +119,7 @@ iframe {
 }
 @media (max-width: 60rem) {
   .button-container {
-    grid-template-columns: repeat(2, 50%);
+    grid-template-columns: repeat(1, 100%);
   }
   .grid-button {
     height: 5rem;
@@ -129,8 +129,5 @@ iframe {
 @media (max-width: 40rem) {
   .card-photo:hover {
     transform: translate(0, -5px) rotate(0deg) scale(0.9);
-  }
-  .button-container {
-    grid-template-columns: repeat(1, 100%);
   }
 }
